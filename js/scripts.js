@@ -14,10 +14,12 @@ $(document).ready(function() {
 
     console.log(results);
 
+    // For loop to print results
     // for (i=0; i<results.length; i++) {
     //   $(".array-results").append("<li>" + results[i] + "</li>");
     // }
 
+    // forEach loop to print results
     results.forEach(function(result) {
       $(".array-results").append("<li>" + result + "</li>");
     });
